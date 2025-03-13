@@ -70,3 +70,5 @@ Follow these instructions to get a copy of the project running on your local mac
 - **Maven**: Make sure Maven is installed to build and run the application.
 - **Spring Boot**: Spring Boot framework for creating the RESTful API.
 
+### Postman
+![Postman](https://github.com/klintfox/java/blob/main/api-vehicle-sealed-class/src/main/resources/images/1.PNG)
