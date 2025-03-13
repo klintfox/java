@@ -21,6 +21,7 @@ The main features of the project include:
 - **Spring Boot**: Used to expose an HTTP REST API for interacting with the service.
 
 ## Project Structure
+```sh
 ├───main
 │   ├───java
 │   │   └───com
@@ -38,8 +39,7 @@ The main features of the project include:
 │   │           │
 │   │           └───service
 │   │                   VehicleService.java
-
-
+```
 
 ### 1. **Model Layer**
 - `Vehicle.java`: The base class for all vehicles.
