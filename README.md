@@ -1,12 +1,12 @@
-# java
-Key features of Java 8,11,17,21
-
+# Java Features
+Key features of Java 8,11,17,21 version.
+---
 ## JAVA 8
-
+---
 ## JAVA 11
-
+---
 ## JAVA 17
-
+---
 ### Sealed Classes
 In Java, **Sealed Classes** allow you to define a class or interface with a restricted set of subclasses. This enables more control over class hierarchies, making the code more predictable, safer, and easier to maintain.
 
@@ -37,8 +37,42 @@ public sealed class Vehicle permits Car, Bike, Truck {
     // Class body
 }
 ```
+#### Example
 
 [Sealed Class Example](https://github.com/klintfox/java/tree/main/api-vehicle-sealed-class)
+---
 
 ## JAVA 21
 
+### Pattern Matching for Switch
+Pattern Matching for Switch, introduced in Java 17 as a preview feature and finalized in Java 21, enhances the switch statement to allow more powerful and flexible type checks and conversions. Here are some of the key features:
+
+1. Simplified Type Checking
+Pattern matching allows the switch statement to match patterns directly on the case values, reducing the need for explicit type casting or multiple instanceof checks. This makes the code cleaner and easier to read.
+
+2. Type Guards
+Pattern matching allows for more expressive case labels. You can check types and extract values in a single step, making the code more concise.
+
+java
+Copiar
+switch (vehicle) {
+    case Car c -> System.out.println("This is a car with " + c.getBrand());
+    case Bike b -> System.out.println("This is a bike with a sidecar: " + b.hasSidecar());
+    default -> System.out.println("Unknown vehicle type");
+}
+3. Improved Readability and Maintainability
+By allowing the switch statement to directly match types and extract their properties, code that involves complex instanceof checks becomes more readable and maintainable. This reduces boilerplate code and makes it easier to modify logic in the future.
+
+4. Integration with Sealed Classes
+Pattern Matching for Switch works seamlessly with sealed classes. You can use the switch statement to handle sealed class hierarchies, ensuring that all possible cases are covered at compile time. This helps catch errors early if you forget to account for a specific subclass.
+
+5. Enhancement over Traditional switch Statements
+Unlike traditional switch statements that only compare against constants or enums, Pattern Matching allows for more complex checks, such as matching types and extracting values in a single case block.
+
+6. Finalized in Java 21
+Pattern Matching for Switch was finalized in Java 21, making it a stable feature and part of the Java language specification, with enhancements for more comprehensive matching capabilities.
+
+For further reading and examples, you can refer to the official Java Documentation. [documentation](https://docs.oracle.com/en/java/javase/21/language/pattern-matching-switch.html#GUID-E69EEA63-E204-41B4-AA7F-D58B26A3B232)
+
+#### Example
+[Pattern Matching for Switch Example](https://github.com/klintfox/java/tree/main/vehiclePatternMatching)
