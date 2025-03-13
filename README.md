@@ -4,6 +4,16 @@ Key features of Java 8,11,17,21 version.
 
 ## JAVA 8
 
+### Lambda Expressions 
+
+### Streams API
+
+### Optional
+
+### Date and Time API (java.time)
+
+### Default Methods
+
 ---
 
 ## JAVA 11
@@ -13,6 +23,8 @@ Key features of Java 8,11,17,21 version.
 ## JAVA 17
 
 ---
+
+### Pattern Matching for instanceof
 
 ### Sealed Classes
 In Java, **Sealed Classes** allow you to define a class or interface with a restricted set of subclasses. This enables more control over class hierarchies, making the code more predictable, safer, and easier to maintain.
@@ -48,8 +60,16 @@ public sealed class Vehicle permits Car, Bike, Truck {
 
 [Sealed Class Example](https://github.com/klintfox/java/tree/main/api-vehicle-sealed-class)
 
+### Strong Encapsulation of JDK Internals
+
+### JEP 356: Enhanced Pseudo-Random Number Generators
+
+### Deprecation of the Applet API
+
 
 ## JAVA 21
+
+### Record Types Enhancements
 
 ### Pattern Matching for Switch
 Pattern Matching for Switch, introduced in Java 17 as a preview feature and finalized in Java 21, enhances the switch statement to allow more powerful and flexible type checks and conversions. Here are some of the key features:
@@ -83,4 +103,10 @@ For further reading and examples, you can refer to the official Java Documentati
 
 #### Example
 [Pattern Matching for Switch Example](https://github.com/klintfox/java/tree/main/vehiclePatternMatching)
+
+### Project Loom (Virtual Threads)
+
+### Foreign Function & Memory API
+
+### Foreign Linker API
 
