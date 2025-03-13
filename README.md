@@ -1,12 +1,19 @@
 # Java Features
+
 Key features of Java 8,11,17,21 version.
----
+
 ## JAVA 8
+
 ---
+
 ## JAVA 11
+
 ---
+
 ## JAVA 17
+
 ---
+
 ### Sealed Classes
 In Java, **Sealed Classes** allow you to define a class or interface with a restricted set of subclasses. This enables more control over class hierarchies, making the code more predictable, safer, and easier to maintain.
 
@@ -76,3 +83,4 @@ For further reading and examples, you can refer to the official Java Documentati
 
 #### Example
 [Pattern Matching for Switch Example](https://github.com/klintfox/java/tree/main/vehiclePatternMatching)
+
