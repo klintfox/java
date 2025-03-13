@@ -40,7 +40,7 @@ public sealed class Vehicle permits Car, Bike, Truck {
 #### Example
 
 [Sealed Class Example](https://github.com/klintfox/java/tree/main/api-vehicle-sealed-class)
----
+
 
 ## JAVA 21
 
